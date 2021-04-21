@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const Props = () => {
- message: 'Hola desde mi Props'
+//  message: 'Hola desde mi Props'
   
        const title= 'Soy una constante'
           return ( 
