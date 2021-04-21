@@ -26,6 +26,7 @@ const [tareas, setTareas] = React.useState([])
                     <div>
                               <h1>Esta es la parte de firebase</h1>
                               <h2>Hola mi app en Firebase</h2>
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sequi optio ab doloribus reprehenderit sapiente perferendis id, ad dignissimos pariatur eum maiores possimus expedita quibusdam asperiores officiis quam earum ea.</p>
                               <div className="container mb-2">
     <div className="row">
         <div className="col-md-6">
