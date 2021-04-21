@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  background-color: rgb(116, 138, 138);
+
+}
+#root{
+  margin: 0;
+  background-color: rgb(116, 138, 138);
+  padding-top: .5em;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logo{
+ text-transform: uppercase;
+}
+.nav{
+  background-color: rgb(179, 177, 177);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+}
+.nav ul{
+  display: flex;
+}
+.nav ul li{
+ list-style: none;
+ margin-right: 1em;
+ text-transform: uppercase;
+}
+ ul li{
+ list-style: none;
+ margin-right: 1em;
+ text-transform: uppercase;
+}
+span{
+  font-weight: 900;
+}
+.nav ul li a{
+  list-style: none;
+  text-decoration: none;
+  padding: .2em;
+}
+.nav ul li:hover a{
+  font-weight: 500;
+}
+#li a{
+  background-color: burlywood;
+  border-radius: 3px;
+  color: black;
+}
+.active{
+  background-color: rgb(155, 115, 115);
+  color: aliceblue;
+  list-style: none;
+  border-radius: 3px;
+
+}
