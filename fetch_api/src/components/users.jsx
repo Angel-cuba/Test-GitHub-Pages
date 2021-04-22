@@ -11,7 +11,8 @@ const User= () =>{
 
     React.useEffect(() => {
         fetchData()
-    }, [])
+    }, 
+            [])
 
     const fetchData = async () => {       
         const data = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
