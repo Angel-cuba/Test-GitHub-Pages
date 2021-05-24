@@ -35,7 +35,7 @@ const [tareas, setTareas] = React.useState([])
             {
                 tareas.map(item => (
                 <li className="list-group-item" key={item.id}>
-                  <span>{item.name}</span>...........
+                  <span>{item.name}</span>
                   <span>{item.fecha}</span>
                     <button 
                         className="btn btn-danger btn-sm float-right"

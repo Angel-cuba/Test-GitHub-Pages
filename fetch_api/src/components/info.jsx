@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react'
 //import { firebase } from './firebase'
 import {  NavLink } from 'react-router-dom'
-import useState from 'react-router-dom'
+import {useState, useEffect} from 'react'
 
 
 const Info = () => {
 
-const [users, setUsers] = React.useState([])
+const [users, setUsers] = useState([])
 
-React.useEffect(() => {
+useEffect(() => {
 
     const obtenerDatos = async () => {
         //const db = firebase.firestore()
@@ -31,7 +31,7 @@ React.useEffect(() => {
                     <Fragment>
                     <div className="container text-center mt-5">
                                <h1>
-                                        La parte de la INFO
+                                       Todo desde mi web de INFO
                               </h1>
                     </div>
                     <div className="container mb-2">

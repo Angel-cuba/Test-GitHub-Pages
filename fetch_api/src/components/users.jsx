@@ -1,5 +1,5 @@
 import React from 'react'
-import useState from 'react'
+import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
 import '../index.css'
 
@@ -7,12 +7,12 @@ import '../index.css'
 const User= () =>{
 // console.log(useParams())
     const {id} = useParams();
-    const [usuario, setUsuario] = React.useState({})
+    const [usuario, setUsuario] = useState({})
 
-    React.useEffect(() => {
+    useEffect(() => {
         fetchData()
     }, 
-            [])
+     [])
 
     const fetchData = async () => {       
         const data = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
